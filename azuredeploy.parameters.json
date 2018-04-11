@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminPassword": {
+      "value": "abcd1234ABCD"
+    },
+    "NumberofWAFinstances": {
+      "value": 2
+    },
+    "storageAccountName": {
+      "value": "mcwafstorage01"
+    },
+    "vmName": {
+      "value": "mcwaf"
+    },
+    "ELBDNSName": {
+      "value": "mcwafcluster"
+    },
+    "VnetName": {
+      "value": "mcvnet"
+    },
+    "SubnetName": {
+      "value": "web-subnet"
+    },
+    "vmSize": {
+      "value": "Standard_DS1_v2"
+    }
+  }
+}
